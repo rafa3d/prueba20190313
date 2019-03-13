@@ -1,0 +1,187 @@
+body {
+	background-color: #b9cde5;
+	color: #7d7c8c;
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+	padding:50px;
+}
+
+.numero {
+	font-family: Courier,Arial,Helvetica Neue,Helvetica,sans-serif; 
+	
+}
+
+.contendor {
+	padding: 15px;
+	background-color:white;
+}
+
+.hoja {
+	margin: auto;
+	min-width: 950px;
+}
+
+#hoja1,#hoja2 {
+	display: inline-block;
+	width:50%;
+	border-right: 1px solid #a0a0a0;
+}
+
+#hoja2 {
+	width:49%;
+	vertical-align:top;
+}
+
+#hoja1_dias {
+	display: inline;
+	font-size:2rem;
+	color: #020202;
+	float:left;
+
+
+}
+
+#hoja1_fecha {
+	display: block;
+	color: #020202;
+	text-align:center;
+	width:100%;
+	font-size:1.2rem;
+}
+
+#hoja1_espacio {
+	width:200px;
+	display: inline-block;
+
+}
+
+#hoja2_dias {
+	display: inline;
+	font-size:2rem;
+	color: #020202;
+	float:right;
+
+}
+
+#hoja2_fecha {
+	display: block;
+	color: #020202;
+	width:100%;
+	text-align:center;
+	font-size:1.2rem;
+}
+
+#hoja2_espacio {
+	width:20px;
+}
+
+#tabla2 {
+	display:inline-block;
+	width:100%;
+}
+
+#tabla1_1 {
+	display: inline-block;
+	width:91%;
+}
+
+#tabla1_2 {
+	display: inline-block;
+	width: 8%;
+}
+
+#tabla2_1 {
+	display: inline-block;
+	vertical-align:top;
+	width:91%;
+}
+
+#tabla2_2 {
+	display: inline-block;
+	margin-top:13px;
+	vertical-align:top;
+	width: 8%;
+
+}
+
+table {
+  border-collapse: collapse;
+  font-size:0.8rem;
+}
+
+table, th, td {
+  border: 1px solid #bdbdbd;
+}
+
+
+th {
+	background-color: #e0e0e0;
+	color: #4e3c40;
+}
+
+.dia_fila {
+	font-size:1.1rem;
+}
+
+.numero_fila {
+	font-size:2rem;
+}
+
+.centrado {
+	text-align:center;
+}
+
+.entre_filas {
+	background-color:#a0a0a0;
+	height:0px;
+	border: 0px;
+	
+}
+
+.circulo1,.circulo2 {
+  height: 20px;
+  width: 20px;
+  background-color: #8eb4e3;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top:26px;
+  margin-bottom:26px;
+  margin-left:20px;
+  margin-right:10px;
+}
+
+.circulo2 {
+  margin-left:20px;
+  margin-right:10px;	
+}
+
+.santoral {
+	float:right;
+	font-size:0.5rem;
+	color:lightblue;
+}
+
+.trebol {
+	height:13px;
+	vertical-align:middle;
+}
+
+.boton {
+	font-size:2rem;
+	margin-bottom:15px;
+}
+
+/* Un workaround para ajustar en Firefox con Media Queries */
+@-moz-document url-prefix() {
+	#tabla2_2 {
+		margin-top:23px;
+
+	}
+	.circulo1 {
+		margin-left:15px;
+		margin-right:5px;	
+	}
+	.circulo2 {
+		margin-left:16px;
+		margin-right:10px;	
+	}
+}
